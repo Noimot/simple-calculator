@@ -10,15 +10,19 @@ body {
 }
 
 .cal-container {
-    width: 300px;
+    width: 1200px;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
-   
+    margin: 0 auto; 
 } 
+
+.cal-container h1{
+    margin-bottom: 100px;
+    color:  #ccddff;
+}
  
 .form-container {
     min-height: 40%;
@@ -29,8 +33,8 @@ body {
 
 .button-div {
     display: grid;
-    grid-template-columns: repeat(4, 40px);
-    grid-template-rows: repeat(5, 40px);
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 45px);
     gap: 3px;
     
 }
@@ -47,7 +51,7 @@ body {
 
 div input {
     width: 100%;
-    min-height: 7vh;
+    min-height: 8vh;
     margin-bottom: 10px;
     background-color: #e6eeff ;
     border: 0;
