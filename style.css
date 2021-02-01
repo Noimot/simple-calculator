@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #80aaff /*#e6eeff*/
+    background: #009973
 }
 
 .cal-container {
@@ -21,47 +21,61 @@ body {
 
 .cal-container h1{
     margin-bottom: 100px;
-    color:  #ccddff;
+    color:  #000;
 }
  
 .form-container {
     min-height: 40%;
-    background: #ccddff;
+    background:#003326;
     border-radius: 5px;
     padding: 10px;  
 }
 
 .button-div {
     display: grid;
-    grid-template-columns: repeat(4, 50px);
+    grid-template-columns: repeat(4, 45px);
     grid-template-rows: repeat(5, 45px);
-    gap: 3px;
+    gap: 5px;
     
 }
 
 .button-div > button:first-child, .button-div > button:last-child {
     grid-column: span 2;
+    border-radius: 20px;
 }
 
 .button-div > button {
     cursor: pointer;
-    border-color: #fff;
+    border: none;
     font-weight: 600;
+    border-radius: 50%;
 }
 
 div input {
     width: 100%;
-    min-height: 8vh;
+    min-height: 15vh;
     margin-bottom: 10px;
-    background-color: #e6eeff ;
+    background-color: transparent ;
     border: 0;
 }
 
-.button-div > button:hover {
-    background-color: #c2d1f0;
-    border-color: #c2d1f0
+hr {
+    border:1px solid #ccc;
+}
+
+.button-div > button:focus {
+    background-color: #009973;
+    border-color: #009973
 }
 
 .button-div > button:focus  {
     outline: 0;
+}
+
+.operator {
+    background-color: #ffd480;
+}
+
+.equal, .delete {
+    background: #ffbb33;
 }
