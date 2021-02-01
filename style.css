@@ -51,12 +51,20 @@ body {
     border-radius: 50%;
 }
 
-div input {
+div#inputNum {
     width: 100%;
-    min-height: 15vh;
+    min-height: 5vh;
     margin-bottom: 10px;
     background-color: transparent ;
     border: 0;
+    color: #fff;
+    outline: 0;
+}
+
+div #inputNum {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 hr {

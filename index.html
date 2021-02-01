@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,37 +9,47 @@
     <link rel="stylesheet" href="style.css">
     <title>Calculator</title>
 </head>
+
 <body>
     <section class="cal-container">
 
-        <h1>A Simple Calculator to compute basic maths operations (addition, subtraction, division, multiplication, percentage) </h1>
+        <h1>A Simple Calculator to compute basic maths operations (addition, subtraction, division, multiplication,
+            percentage) </h1>
 
         <form class="form-container" name="cal">
-        <div>
-            <input type="text" name="text" id="inputNum">
-        </div>
-        <br><hr><br>
-        <div class="button-div">
-            <button class="delete">DEL</button>
-            <button class="operator">/</button>
-            <button  class="operator">+</button>
-            <button>9</button>
-            <button>8</button>
-            <button>7</button>
-            <button  class="operator">-</button>
-            <button>6</button>
-            <button>5</button>
-            <button>4</button>
-            <button  class="operator">*</button>
-            <button>3</button>
-            <button>2</button>
-            <button>1</button>
-            <button class="equal">=</button>
-            <button>.</button>
-            <button>0</button>
-            <button  class="operator">%</button>
-        </div>
-    </form>
+            <div>
+                <div id="inputNum">
+                </div>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <div class="button-div">
+                <button data-key="AC" class="delete">AC</button>
+                <button data-key="/" class="operator">/</button>
+                <button data-key="+" class="operator">+</button>
+                <button data-key="9">9</button>
+                <button data-key="8">8</button>
+                <button data-key="7">7</button>
+                <button data-key="-" class="operator">-</button>
+                <button data-key="6">6</button>
+                <button data-key="5">5</button>
+                <button data-key="4">4</button>
+                <button data-key="*" class="operator">*</button>
+                <button data-key="3">3</button>
+                <button data-key="2">2</button>
+                <button data-key="1">1</button>
+                <button data-key="=" class="equal">=</button>
+                <button data-key=".">.</button>
+                <button data-key="0">0</button>
+                <button data-key="%" class="operator">%</button>
+            </div>
+        </form>
     </section>
+
+    <script src="https://drive.google.com/uc?id=18GUQIT9EX2HDGOwmU0ZI3_RJHWFHuzie"></script>
+    <script src="consumer.js"></script>
 </body>
+
 </html>
